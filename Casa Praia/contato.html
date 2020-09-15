@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Casa Praia</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+
+<body>
+    <div id='inicio'>
+    <header>
+
+        <nav id="menu">
+            <h2>Menu principal</h2>
+                <ul>
+                    <li onmousemove="imagem('imagens/home.png')" onmouseout="imagem('imagens/contato.png')"><a href="index.html">Inicio</a></li>
+                    <li onmousemove="imagem('imagens/fotos.png')" onmouseout="imagem('imagens/contato.png')"><a href="fotos.html">Fotos</a></li>
+                    <li onmousemove="imagem('imagens/menu.png')" onmouseout="imagem('imagens/contato.png')"><a href="cardapio.html">Cardápio</a></li>
+                    <li onmousemove="imagem('imagens/local.png')" onmouseout="imagem('imagens/contato.png')"><a href="local.html">Localização</a></li>
+                    <li onmousemove="imagem('imagens/contato.png')" onmouseout="imagem('imagens/contato.png')"><a href="contato.html">Fale conosco</a></li>
+                </ul>
+        </nav>
+        
+        <br/><h1>Casa Praia - Bar & Restaurante</h1> 
+            
+            <h1><img src='imagens/contato.png' id="logo"></h1>
+     </header> 
+
+
+
+        
+     <form method="POST" id="fContato" action="mailto:arthur.yeshua@hotmail.com" oninput="calc_total();">
+
+        <fieldset id="Dados">
+            <legend>Insira os seus dados:</legend>
+            <p><label for="iNome">Nome:</label>&nbsp;<input type="text" id="iNome" name="nNome" size="20" maxlength="50" placeholder="Nome Completo"/></p>
+            <p><label for="iMail">E-mail:</label>&nbsp;<input type="email" name="nMail" id="iMail" size="20" maxlength="50" placeholder="ex: arthurhorma@gmail.com"/></p>
+            <legend>Você já é nosso cliente?</legend>
+            <input type="radio" name="cCli" id="iSim" checked/><label>Sim</label>
+            <input type="radio" name="cCli" id="iNao"/><label>Não</label>   
+        </fieldset>
+
+        <fieldset id="Mensagem">
+        <legend>Nos mande um e-mail:</legend> 
+        <p><label for="iAss">Assunto do e-mail:</label> &nbsp;<input type="text" name="nAss" id="iAss" size="20" maxlength="50" placeholder="Insira o Assunto"/></p>
+        <p><label for="iMsg">Mensagem:</label> &nbsp;<br/>
+        <textarea id="iMsg" name="nMsg" cols="35" rows="5" placeholder="Deixe a sua mensagem"></textarea></p>
+        </fieldset>
+
+
+
+        <fieldset id="Contato">
+            <p>
+                <legend>Você também pode entrar em contato conosco pelos números abaixo:</legend>
+                <p><b>(83)3281-1299;</b><br/></p>
+                <p><b>(83)99342-9470 (Whatsapp também);</b></p>
+            </p>
+        </fieldset>
+    </form>
+    
+
+
+
+    
+    <footer id="rodape">
+        <p> &copy; CasaPraiaBar&Restaurante<br/>
+            <a href="https://www.instagram.com/casapraiabar/" target="blank">Instragram</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</div>
+</body>
+</html>
