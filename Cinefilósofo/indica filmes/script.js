@@ -164,6 +164,6 @@ function recomendar(){
     res.innerHTML= `A recomedação para o tipo ${modo} de filme!`    
     res.style.textAlign= 'center'
     res.appendChild(img)
-    res.style.font='normal 15pt Arial'
+    res.style.font='normal 16pt Arial'
 
 }
