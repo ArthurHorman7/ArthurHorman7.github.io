@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+body{
+    color: white;
+    background: url("../_imagens/aa.jpg") center;
+    background: cover;
+    font: normal 15pt Arial;
+}
+header{
+    color: #82a4b4;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.603);
+    box-shadow: 3px 3px 10px rgba(3, 3, 3, 0.301);
+    background-color: rgba(255, 255, 255);
+    border-bottom: 2px solid #7796a5;
+}
+header h1{
+    margin-bottom: 5px;
+}
+
+p {
+    text-align: justify;
+}
+
+.texto {
+    font-style: none;
+    text-align: center;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+div{
+    background-color: rgba(156, 189, 198, .8);
+    max-width: 1100px;
+    margin: -20px auto 0px auto;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.603);
+    padding: 10px;
+}
+
+footer{
+    padding-top: 10px;
+    color: #82a4b4;
+    text-align: center;
+    font-style: italic;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .texto {
+        margin-left: none;
+        padding-left: none;
+        margin-right: 20px;
+    }
+    .foto-comida {
+        margin-right: 20px;
+    }
+}
+
+/******Legenda da imagem******/
+
+figure.foto-comida {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.356) ;
+    border: 5px solid #ffffff;
+    width: 250px;
+    height: 150px;
+    -webkit-transition: 0.2s ease-in;
+    font-size: 9pt;
+}
+
+figure.foto-comida:hover {
+    -webkit-transform: scale(1.1);
+}
+
+figure.foto-comida img{
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-comida figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    
+    background: center;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    transition: opacity 1s;
+}
+
+figure.foto-comida:hover figcaption{
+    opacity: 1;
+}
+
+
+
+
+figure.foto-legenda {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.356) ;
+    border: 5px solid #ffffff;
+    width: 200px;
+    height: 250px;
+    font-size: 9pt;
+    -webkit-transition: 0.3s ease-in;
+}
+
+figure.foto-legenda:hover {
+    -webkit-transform: scale(1.1);
+}
+
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    
+    background: center;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+
+/* FORMATAÇÃO DO MENU*/
+
+nav#menu{
+    size: block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px auto 0 auto;
+}
+nav#menu li {
+    background-color: #82a4b4;
+    display: inline-block;
+    padding: 5px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+nav#menu li:hover{
+    background-color: #ffffff;
+}
+nav#menu h2{
+    display: none;
+}
+
+nav#menu a{
+    color: #ffffff;
+    text-decoration: none;
+}
+nav#menu a:hover{
+    color: #82a4b4;
+    text-decoration: underline;
+}
+
+section#corpo{
+    display: block;
+    max-width: 1050px;
+    
+}
+
+footer#rodape {
+    clear: both;
+    color: #ffffff;
+    border-top: 2px solid #7796a5;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+footer#rodape p{
+    text-align: center;
+}
+footer#rodape a{
+    text-decoration: none;
+    color: #00adf1;
+}
+footer#rodape a:hover{
+    text-decoration: underline;
+    color: #7796a5;
+}
