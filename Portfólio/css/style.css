@@ -124,7 +124,7 @@ label #btn, label #cancel {
 .intro {
 margin-top: 50px;
 padding-bottom: 30px;
-background: url("../_img/fundo7.jpg") no-repeat center center;
+background: url("../img/fundo7.jpg") no-repeat center center;
 background-size: cover;
 text-align: center;
 }
