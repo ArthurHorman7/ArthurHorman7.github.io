@@ -1,5 +1,5 @@
 # Aqui estão hospedados os meus projetos.
-## Arthur Horman
+### Arthur Horman de Medeiros Correia
 
 _[**Projeto 1: Portfólio**](https://arthurhorman7.github.io/Portfólio/)_
 
