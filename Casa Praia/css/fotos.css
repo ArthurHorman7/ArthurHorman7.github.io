@@ -45,7 +45,7 @@ ul#album-fotos li:hover {
 
 
 ul#album-fotos li#foto01 {
-    background: url('../_imagens/torresmo.jpg');
+    background: url('../imagens/torresmo.jpg');
     background-size: 400px 400px;
     background-position: 50% 50%;
 }
@@ -57,7 +57,7 @@ ul#album-fotos li#foto01:hover {
 
 
 ul#album-fotos li#foto02 {
-    background: url('../_imagens/cacildis.jpg');
+    background: url('../imagens/cacildis.jpg');
     background-size: 400px 400px;
     background-position: 50% 50%;
 }
@@ -70,7 +70,7 @@ ul#album-fotos li#foto02:hover {
 
 
 ul#album-fotos li#foto03 {
-    background: url('../_imagens/caldo-de-camarao.jpg');
+    background: url('../imagens/caldo-de-camarao.jpg');
     background-size: 400px 400px;
     background-position: 50% 50%;
 }
@@ -83,7 +83,7 @@ ul#album-fotos li#foto03:hover {
 
 
 ul#album-fotos li#foto04 {
-    background: url('../_imagens/Batata-frita.jpg');
+    background: url('../imagens/Batata-frita.jpg');
     background-size: 400px 400px;
     background-position: 50% 50%;
 }
@@ -96,7 +96,7 @@ ul#album-fotos li#foto04:hover {
 
 
 ul#album-fotos li#foto05 {
-    background: url('../_imagens/galinha-caipira.jpg');
+    background: url('../imagens/galinha-caipira.jpg');
     background-size: 400px 400px;
     background-position: 50% 50%;
 }
@@ -110,7 +110,7 @@ ul#album-fotos li#foto05:hover {
 
 
 ul#album-fotos li#foto06 {
-    background: url('../_imagens/caipirinha.jpeg');
+    background: url('../imagens/caipirinha.jpeg');
     background-size: 400px 400px;
     background-position: 50% 50%;
 }
