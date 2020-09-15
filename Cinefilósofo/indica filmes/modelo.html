@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indica Filmes</title>
+    <link rel="stylesheet" href="../_css/estilo.css">
+</head>
+
+<style>
+
+section#indica {
+    
+    background: red;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 600px;
+    margin: 150px auto 100px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.719);
+}
+section#indica > div{
+    text-align: center;
+    font: normal 10pt Arial;
+    padding: 6px;
+}
+
+</style>
+
+<body>
+        <header>
+            <div class="menu">
+                    <ul type="none">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../indica filmes/modelo.html">Indicações</a></li>
+                        <li><a href="../direção.html">Direção</a></li>
+                        <li><a href="../produtos.html">Produtos</a></li>
+                    </ul>
+            </div>
+            <div class="intro">
+                <h1>CinéFilósofo</h1>
+                <p>&</p>
+                <p>Indicações</p>
+            </div>
+        </header>
+
+    <section id="indica">
+        <div>
+           
+            <p>Você quer uma recomendação: 
+                <input type="radio" name="gosta" id="sim" checked>
+                <label for="sim">SIM</label>
+                <input type="radio" name="gosta" id="nao">
+                <label for="nao"></label>NÃO</label>
+            </p>
+
+            <input type="button" value="Recomendar" onclick="recomendar()">
+
+            <p><strong>O gênero de filme que deseja uma Recomendação.</strong></p>     
+            
+        </div>
+
+        <div>
+            <select name="sel" id='sel'>
+                <option value="v1" >Ação</option>
+                <option value="v2" >Animação</option>
+                <option value="v3" >Aventura</option>
+                <option value="v3" >Comédia</option>
+                <option value="v4" >Cult</option>
+                <option value="v5" >Documentário</option>
+                <option value="v6" >Drama</option>
+                <option value="v7" >Gospel</option>
+                <option value="v8" >Histórico</option>
+                <option value="v9" >Esporte</option>
+                <option value="v10" >Espionagem</option>
+                <option value="v11" >Fantasia</option>
+                <option value="v12" >Faroeste</option>
+                <option value="v13" >Ficção científica</option>
+                <option value="v14" >Musical</option>
+                <option value="v15" >Noir</option>
+                <option value="v16" >Policial</option>
+                <option value="v17" >Maior de 18 anos</option>
+                <option value="v18" >Romance</option>
+                <option value="v19" >Suspense</option>
+                <option value="v20" >Terror</option>
+            </select>
+        </div>
+
+        <div id='res'>
+            Escolha o gênero de filme que deseja uma recomendação.
+        </div>
+
+        <div id='rei'></div>
+    </section>
+    
+
+ 
+
+
+    <footer>
+        <p>&copy;
+            CinéFilósofo <br>
+            <a href="https://www.instagram.com/arthurhorman/" target="blank">Instagram</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
