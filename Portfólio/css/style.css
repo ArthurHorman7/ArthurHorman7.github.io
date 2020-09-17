@@ -37,6 +37,7 @@ label #btn, label #cancel {
 #check {
     display: none;
 }
+/**
 @media (max-width: 500px) {
     .menu {
         justify-content: space-between;
@@ -75,7 +76,7 @@ label #btn, label #cancel {
     }
     
 }
-
+**/
 
 
 /** MENU E INTRO ***************************/
