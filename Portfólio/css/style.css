@@ -25,7 +25,6 @@ body {
 }
 
 /** MENU RESPONSIVO! ***************************/
-/**
 label #btn, label #cancel {
     flex: 0;
     color: white;
@@ -38,7 +37,7 @@ label #btn, label #cancel {
 #check {
     display: none;
 }
-
+/**
 @media (max-width: 500px) {
     .menu {
         justify-content: space-between;
@@ -59,16 +58,17 @@ label #btn, label #cancel {
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: space-around;
-        transition: all .5s;
-        opacity: 0;
     }
     ul li{
-        display: block;
+        
         margin: 40px;
     }
-    #check:checked ~ #ul{
-        opacity: 1;
+    nav { 
+        display: none; 
     }
+	#check:checked ~ nav {
+		display: block;
+	}
     #check:checked ~ label #btn {
         display: none;
     }
@@ -89,6 +89,8 @@ label #btn, label #cancel {
     z-index: 100;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
 }
 .menu img{
     flex: 1;
@@ -99,7 +101,6 @@ label #btn, label #cancel {
 .menu ul {
     flex: 1;
     display: flex;
-    flex-wrap: wrap;
     margin: 0px auto;
     text-decoration: none;
     align-items: center;
@@ -111,6 +112,7 @@ label #btn, label #cancel {
     align-items: center;
     text-shadow: 1px 1px 1px black;
     color: #1a1919;
+    margin-right: 5px;
 }
 .menu ul li a {
     font-size: 18pt;
@@ -119,7 +121,7 @@ label #btn, label #cancel {
 }
 .menu ul li a:hover {
     text-decoration: underline;
-    font-size: 20pt;
+    font-size: 16pt;
 }
 
 
@@ -157,6 +159,20 @@ text-align: center;
     .intro h3 {
         font-size: 9pt;
         margin: 0 40px;
+    }
+}
+@media (max-width: 370px){
+    .menu ul li a{
+        font-size: 15pt;
+    }
+}
+@media (max-width: 325px){
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu ul li {
+        margin-right: 10px;
     }
 }
 
@@ -441,11 +457,10 @@ text-align: center;
     max-width: 400px;
     margin: 20px;
     flex: 1;
-    -webkit-transform: scale(1);
     -webkit-transition-duration: 0.3s;
 }
 .aleimg img:hover {
-    -webkit-transform: scale(1.05);
+    -webkit-transform: scale(0.95);
 }
 
 
@@ -491,11 +506,10 @@ text-align: center;
     max-width: 400px;
     margin: 20px;
     flex: 1;
-    -webkit-transform: scale(1);
     -webkit-transition-duration: 0.3s;
 }
 .cineimg img:hover {
-    -webkit-transform: scale(1.05);
+    -webkit-transform: scale(0.95);
 }
 
 
@@ -542,11 +556,10 @@ text-align: center;
     max-width: 400px;
     margin: 20px;
     flex: 1;
-    -webkit-transform: scale(1);
     -webkit-transition-duration: 0.3s;
 }
 .lutaimg img:hover {
-    -webkit-transform: scale(1.05);
+    -webkit-transform: scale(0.95);
 }
 
 
@@ -592,11 +605,10 @@ text-align: center;
     max-width: 400px;
     margin: 20px;
     flex: 1;
-    -webkit-transform: scale(1);
     -webkit-transition-duration: 0.3s;
 }
 .barimg img:hover {
-    -webkit-transform: scale(1.05);
+    -webkit-transform: scale(0.95);
 }
 
 
@@ -642,11 +654,10 @@ text-align: center;
     max-width: 400px;
     margin: 20px;
     flex: 1;
-    -webkit-transform: scale(1);
     -webkit-transition-duration: 0.3s;
 }
 .glassimg img:hover {
-    -webkit-transform: scale(1.05);
+    -webkit-transform: scale(0.95);
 }
 
 
@@ -691,11 +702,10 @@ text-align: center;
     max-width: 400px;
     margin: 20px;
     flex: 1;
-    -webkit-transform: scale(1);
     -webkit-transition-duration: 0.3s;
 }
 .brafeimg img:hover {
-    -webkit-transform: scale(1.05);
+    -webkit-transform: scale(0.95);
 }
 
 
@@ -738,14 +748,13 @@ text-align: center;
     align-items: top;
 }
 .aniimg img {
-    max-width: 400px;
-    margin: 20px;
+    max-width: 320px;
+    margin: 20px 5px;
     flex: 1;
-    -webkit-transform: scale(1);
     -webkit-transition-duration: 0.3s;
 }
 .aniimg img:hover {
-    -webkit-transform: scale(1.05);
+    -webkit-transform: scale(0.95);
 }
 
 
