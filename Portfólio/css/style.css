@@ -25,6 +25,7 @@ body {
 }
 
 /** MENU RESPONSIVO! ***************************/
+/**
 label #btn, label #cancel {
     flex: 0;
     color: white;
@@ -37,7 +38,7 @@ label #btn, label #cancel {
 #check {
     display: none;
 }
-/**
+
 @media (max-width: 500px) {
     .menu {
         justify-content: space-between;
