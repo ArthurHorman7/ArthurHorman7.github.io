@@ -4,42 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Arthur Horman</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
+<!-- ARTHUR HORMAN -->
+<body class="bg-black">
 
-<body>
-    <header id="ho">
-        
-        <section class="menu">
 
-            <img src="img/logo2.png" alt="logo">
-            
-            <ul type="none">
-                <li><a href="#ho">Home</a></li>
-                <li><a href="#pr">Projects</a></li>
-                <li><a href="#sk">Skills</a></li>
-                <li><a href="#co">Contact</a></li>
-            </ul>
 
-            <!--
-            <input type="checkbox" id="check">
-            <label for="check">
-                <i class="fa fa-bars" id="btn"></i>  
-                <i class="fas fa-times" id="cancel"></i>         
-            </label>
-            -->
+                <nav style="max-width: 100%;" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top py-1 pl-0 box-shadow">
+                
+                        <div class="nav-brand">
+                            <img class="logo" src="img/logo2.png" alt="logo">
+                        </div>
+                
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                
+
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ml-auto h4">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-light" href="#ho">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#pr">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#sk">Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#co">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+
+
+
 
         </section>
         
-        <div class="intro">
+        <div class="intro" id="ho">
             <h1>
                 HI, I'M ARTHUR HORMAN
             </h1>
             
             <h3>
-                 BACK-END, FRONT-END DEVELOPMENT AND WEB-DESIGN.
+                 WEB DEVELOPER
             </h3>
         </div>
 
@@ -47,7 +64,9 @@
 
     
     <div class="foto">
-        <img onclick="foto()" src="img/foto.png" alt="foto">
+        
+            <img onclick="foto()" src="img/foto.png" alt="foto">
+        
     </div>
     
 
@@ -70,8 +89,8 @@
         <p>
             &nbsp; Meu Nome é Arthur Horman, tenho 23 anos e resido em João Pessoa-PB.<br>
             Sou formado em automação industrial pelo IFPB.   
-            Adoro estudar e aprender sobre programação e com ajuda de vários cursos 
-            desenvolvi conhecimentos avançados em HTML, CSS, JavaScript, bootstrap, entre outros.
+            Tenho focado na área de desenvolvedor web com estudos e experiências 
+            de trabalhos de design, front-end e back-end.
         </p>
     </div>
 
@@ -82,37 +101,22 @@
             <div class="sites">
                 <div class="bt">
                     <div>
-                        <input type="button" value="Aledrethur" onclick="btale()">
                         <input type="button" value="Cinefilósofo" onclick="btcine()">
                         <input type="button" value="2 centavos de luta" onclick="btluta()">
                         <input type="button" value="Casa Praia" onclick="btbar()">
+                        <input type="button" value="Google Glass" onclick="btglass()">
                     </div>
                     <div>
-                        <input type="button" value="Google Glass" onclick="btglass()">
+                        <input type="button" value="Aledrethur" onclick="btale()">
                         <input type="button" value="Brafé" onclick="btbrafe()">
                         <input type="button" value="Animais Fantásticos" onclick="btani()">
                     </div>
                 </div>
 
-                <div class="ale" id="ale">
-                    <h2>Aledrethur Malhas</h2>
-                    <p>
-                        O site da <strong>Aledrethur Malhas</strong> é de uma loja de costura sediada em Itabaiana PB. 
-                        Esse site foi feito pelo Wordpress conforme a pedido do cliente que buscou algo mais simples.<br>
-                        
-                    </p>
-                    <div class="aleimg">
-                        <a href="https://arthur902892299.wordpress.com/" target="_blank" ><img src="img/Aledrethur.png"></a>
-                        <!--<a href="https://arthur902892299.wordpress.com/about/" target="_blank" ><img src="img/Aledrethur2.png"></a>
-                    -->
-                    </div>  
-                </div>
 
                 <div class="cine" id="cine">
                     <h2>Cinefilósofo</h2>
-                    <p>
-                        &nbsp; Criei o <strong>Cinefilósofo</strong> com a finalidade de aprimorar meus conhecimentos de css e javascript.<br>
-                    </p>
+
                     <div class="cineimg">
                         <a href="https://arthurhorman7.github.io/Cinefil%C3%B3sofo/" target="_blank"><img src="img/cine1.png"></a>
                     <!--<a href="#" target="_blank"><img src="img/cine2.png"></a>
@@ -163,6 +167,20 @@
                     </div>  
                 </div>
 
+                <div class="ale" id="ale">
+                    <h2>Aledrethur Malhas</h2>
+                    <p>
+                        A <strong>Aledrethur Malhas</strong> é uma loja de costura sediada em Itabaiana PB. 
+                        Esse site foi feito pelo Wordpress conforme a pedido do próprio cliente.<br>
+                        
+                    </p>
+                    <div class="aleimg">
+                        <a href="https://arthur902892299.wordpress.com/" target="_blank" ><img src="img/Aledrethur.png"></a>
+                        <!--<a href="https://arthur902892299.wordpress.com/about/" target="_blank" ><img src="img/Aledrethur2.png"></a>
+                    -->
+                    </div>  
+                </div>
+
                 <div class="brafe" id="brafe">
                     <h2>Brafé</h2>
                     <p>
@@ -195,35 +213,34 @@
             <h2>Skills</h2>
             <div class="skills-itens">
                 <div class="skills1">
-                    <p>        &radic;&nbsp;&nbsp;Excel  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;OpenOffice  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;Illustrator e Photoshop  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;Project  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;CAD  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;AutoCAD  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;Matlab  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;Proteus  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;Labview  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;Elipse Scada  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;Solid Edge  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;NX CAM  <br></p> 
+                    <p>        &radic;&nbsp;&nbsp;Informática avançado </p>
+                    <p>        &radic;&nbsp;&nbsp;Excel  </p>
+                    <p>        &radic;&nbsp;&nbsp;OpenOffice  </p>
+                    <p>        &radic;&nbsp;&nbsp;Illustrator e Photoshop  </p>
+                    <p>        &radic;&nbsp;&nbsp;Project  </p>
+                    <p>        &radic;&nbsp;&nbsp;CAD  </p>
+                    <p>        &radic;&nbsp;&nbsp;AutoCAD  </p>
+                    <p>        &radic;&nbsp;&nbsp;Matlab  </p>
+                    <p>        &radic;&nbsp;&nbsp;Proteus  </p>
+                    <p>        &radic;&nbsp;&nbsp;Labview  </p>
+                    <p>        &radic;&nbsp;&nbsp;NX CAM  </p> 
+                    <p>        &radic;&nbsp;&nbsp;Solid Edge  </p>
+                    <p>        &radic;&nbsp;&nbsp;Grafcet  </p>
                 </div>
+
                 <div class="skills2">
+                    <p>        &radic;&nbsp;&nbsp;Elipse Scada<br></p>
                     <p>        &radic;&nbsp;&nbsp;SIMATIC  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;Grafcet  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;Elipse Scada  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;SIMATIC  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;Solid Edge  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;NX CAM  <br></p>
-                    <p>        &radic;&nbsp;&nbsp;Grafcet  <br></p>
+                    <p>        &radic;&nbsp;&nbsp;Wordpress<br></p>
                     <p>        &radic;&nbsp;&nbsp;LADDER <br></p>
                     <p>        &radic;&nbsp;&nbsp;Java <br></p>
                     <p>        &radic;&nbsp;&nbsp;JavaScript <br></p>
-                    <p>        &radic;&nbsp;&nbsp;HTML5 e CSS3 <br></p>
-                    <p>        &radic;&nbsp;&nbsp;MySQL <br></p>
-                </div>
-                <div class="skills2">
-                    <p>        &radic;&nbsp;&nbsp;Inglês Intermediário <br></p>
+                    <p>        &radic;&nbsp;&nbsp;HTML avançado<br></p>
+                    <p>        &radic;&nbsp;&nbsp;CSS avançado<br></p>
+                    <p>        &radic;&nbsp;&nbsp;Bootstrap<br></p>
+                    <p>        &radic;&nbsp;&nbsp;MySQL<br></p>
+                    <p>        &radic;&nbsp;&nbsp;Angular<br></p>
+                    <p>        &radic;&nbsp;&nbsp;Inglês avançado <br></p>
                     <p>        &radic;&nbsp;&nbsp;Espanhol Intermediário <br></p>
                 </div>
             </div>
@@ -243,6 +260,9 @@
         </div>
     </section>
 
+    <script type="text/javascript" src="js/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script> 
+    <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="jquery.js"></script>
     <script src="javascript.js"></script>
 </body>
