@@ -6,7 +6,7 @@
 }
 
 body {
-    background : rgb(26, 25, 25);
+    background : rgba(27, 27, 27, 0.959);
     color: #eaeaea;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -25,6 +25,8 @@ body {
 }
 
 /** MENU RESPONSIVO! ***************************/
+
+/**
 label #btn, label #cancel {
     flex: 0;
     color: white;
@@ -37,51 +39,11 @@ label #btn, label #cancel {
 #check {
     display: none;
 }
-/**
-@media (max-width: 500px) {
-    .menu {
-        justify-content: space-between;
-        
-    }
-    label #btn {
-        display: block;
-    }
-    ul {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #2b333b;
-        top: 49.5px;
-        left: 0;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-    }
-    ul li{
-        
-        margin: 40px;
-    }
-    nav { 
-        display: none; 
-    }
-	#check:checked ~ nav {
-		display: block;
-	}
-    #check:checked ~ label #btn {
-        display: none;
-    }
-    #check:checked ~ label #cancel {
-        display: block;
-    }
-    
-}
-**/
 
 
 /** MENU E INTRO ***************************/
 
+/**
 .menu {
     position: fixed; top: 0px; left: 0px;
     width: 100%;
@@ -123,10 +85,10 @@ label #btn, label #cancel {
     text-decoration: underline;
     font-size: 16pt;
 }
+**/
 
 
 .intro {
-margin-top: 50px;
 padding-bottom: 30px;
 background: url("../img/fundo7.jpg") no-repeat center center;
 background-size: cover;
@@ -196,10 +158,11 @@ text-align: center;
     max-height: 200px;
     -webkit-transition-duration: 0.3s;
 }
+/**
 .foto img:hover {
     -webkit-transform: scale(1.1);
     cursor: pointer;
-}
+}**/
 
 @media (max-width: 1100px){
     .foto {
@@ -246,9 +209,9 @@ text-align: center;
 .insta img {
     position: fixed;
     left: 0px;
-    top: 120px;
-    max-width: 60px;
-    max-height: 60px;
+    top: 200px;
+    max-width: 40px;
+    max-height: 40px;
     -webkit-transition-duration: 0.3s;
     z-index: 90;
 }
@@ -259,9 +222,9 @@ text-align: center;
 .link img {
     position: fixed;
     left: 0px;
-    top: 190px;
-    max-width: 60px;
-    max-height: 60px;
+    top: 250px;
+    max-width: 40px;
+    max-height: 40px;
     -webkit-transition-duration: 0.3s;
     z-index: 90;
 }
@@ -272,49 +235,35 @@ text-align: center;
 .git img {
     position: fixed;
     left: 0px;
-    top: 260px;
-    max-width: 60px;
-    max-height: 60px;
+    top: 300px;
+    max-width: 40px;
+    max-height: 40px;
     -webkit-transition-duration: 0.3s;
     z-index: 90;
 }
 .git img:hover {
     -webkit-transform: scale(1.2);
 }
-@media (max-width: 700px){
-    .insta img {
-        max-width: 45px;
-        max-height: 45px;
-        top: 120px;
-    }
-    .link img {
-        max-width: 45px;
-        max-height: 45px;
-        top: 180px;
-    }
-    .git img {
-        max-width: 45px;
-        max-height: 45px;
-        top: 240px;
-    }
-}
-@media (max-width: 500px){
+
+@media (max-width: 767px){
+
     .insta img {
         max-width: 38px;
         max-height: 38px;
-        top: 120px;
+        top: 250px;
     }
     .link img {
         max-width: 38px;
         max-height: 38px;
-        top: 170px;
+        top: 300px;
     }
     .git img {
         max-width: 38px;
         max-height: 38px;
-        top: 220px;
+        top: 350px;
     }
 }
+
 
 
 
@@ -454,7 +403,7 @@ text-align: center;
     align-items: top;
 }
 .aleimg img {
-    max-width: 320px;
+    max-width: 520px;
     margin: 20px 0px;
     flex: 1;
     -webkit-transition-duration: 0.3s;
@@ -508,7 +457,7 @@ text-align: center;
     align-items: top;
 }
 .cineimg img {
-    max-width: 320px;
+    max-width: 520px;
     margin: 20px 0px;
     flex: 1;
     -webkit-transition-duration: 0.3s;
@@ -566,7 +515,7 @@ text-align: center;
     align-items: top;
 }
 .lutaimg img {
-    max-width: 320px;
+    max-width: 520px;
     margin: 20px 0px;
     flex: 1;
     -webkit-transition-duration: 0.3s;
@@ -623,7 +572,7 @@ text-align: center;
     align-items: top;
 }
 .barimg img {
-    max-width: 320px;
+    max-width: 520px;
     margin: 20px 0px;
     flex: 1;
     -webkit-transition-duration: 0.3s;
@@ -680,7 +629,7 @@ text-align: center;
     align-items: top;
 }
 .glassimg img {
-    max-width: 320px;
+    max-width: 520px;
     margin: 20px 0px;
     flex: 1;
     -webkit-transition-duration: 0.3s;
@@ -735,7 +684,7 @@ text-align: center;
     align-items: top;
 }
 .brafeimg img {
-    max-width: 320px;
+    max-width: 520px;
     margin: 20px 0px;
     flex: 1;
     -webkit-transition-duration: 0.3s;
@@ -791,7 +740,7 @@ text-align: center;
     align-items: top;
 }
 .aniimg img {
-    max-width: 320px;
+    max-width: 520px;
     margin: 20px 0px;
     flex: 1;
     -webkit-transition-duration: 0.3s;
@@ -879,3 +828,18 @@ text-align: center;
     }
 }
 
+
+
+/**Bootstrap**/
+
+.logo {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+@media (max-width: 1410px) {
+
+    .bg-dark {
+        background-color: rgb(26, 25, 25);
+    }
+}
