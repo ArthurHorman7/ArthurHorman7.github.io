@@ -1,1 +1,36 @@
-s
+/**ARTHUR HORMAN**/
+
+body {
+    padding-top: 75px;
+}
+
+.box-shadow {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.05);
+}
+
+#blockquote {
+    background: url(../img/bg-quote.jpg) center center;
+    background-size: cover;
+}
+
+@media (max-width: 767px) {
+    #blockquote .display-4{
+    font-size: 2.5rem;
+}
+    .fixed-top {
+        position: relative;
+    }
+    body{
+        padding-top: 0;
+    }
+}
+
+.lista-plano li + li {
+    
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+
+.lista-plano li {
+    padding: 1rem;
+}
