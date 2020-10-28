@@ -536,7 +536,7 @@ text-align: center;
 
 
 
-/*************************** 2 CENTAVOS DE LUTA **/
+/*************************** Casa Praia **/
 .bar {
     display: none;
 }
@@ -585,6 +585,59 @@ text-align: center;
 }
 @media (max-width: 400px){
     .barimg img {
+        max-width: 310px;
+    }
+}
+
+/*************************** Casa Praia **/
+.caravan {
+    display: none;
+}
+.caravan h2 {
+    margin: 20px auto 10px;
+    background-color: #000000;
+    text-align: center;
+    font-size: 28px;
+}
+.caravan p {
+    text-align: center;
+    font-size: 16px;
+    max-width: 500px;
+    margin: 10px auto;
+}
+.caravan p a{
+    text-align: center;
+   
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+}
+.caravan p a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
+.caravanimg {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    align-items: top;
+}
+.caravanimg img {
+    max-width: 520px;
+    margin: 20px 0px;
+    flex: 1;
+    -webkit-transition-duration: 0.3s;
+}
+.caravanimg img:hover {
+    -webkit-transform: scale(0.95);
+}
+.caravanimg img:hover {
+    -webkit-transform: scale(0.95);
+}
+@media (max-width: 400px){
+    .caravanimg img {
         max-width: 310px;
     }
 }
