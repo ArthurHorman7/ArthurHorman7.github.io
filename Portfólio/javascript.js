@@ -52,15 +52,20 @@ $('nav a').click(function(e){
 });
 
 
+
+
 var res = document.getElementsByName('resp')
-var bt = document.getElementsByName('cancel')
+var bt = document.getElementsByName('btn')
+var can = document.getElementsByName('cancel')
 var ul = document.getElementsByName('ul')
-//if(res[0].checked){
-
+/*if(res[0].checked){
 if(bt.style.display=='block'){
-    ul.style.opacity='1';    
-}
-
+    ul.style.opacity='0';
+    can.style.display=='none'
+}else if(can.style.display=='block'){
+    ul.style.opacity='1';
+    bt.style.display=='none'
+}*/
 
 
 
@@ -74,6 +79,7 @@ function btale(){//Aledrethur Malhas
     var e = document.getElementById('glass')
     var f = document.getElementById('brafe')
     var g = document.getElementById('ani')
+    var h = document.getElementById('caravan')
     if(a.style.display='none'){
         a.style.display='block';
         b.style.display='none';
@@ -82,6 +88,7 @@ function btale(){//Aledrethur Malhas
         e.style.display='none';
         f.style.display='none';
         g.style.display='none';
+        h.style.display='none';
     }else if(a.style.display='block'){
         a.style.display='none';
     }
@@ -95,6 +102,7 @@ function btcine(){//CINEFILÓSOFO
     var e = document.getElementById('glass')
     var f = document.getElementById('brafe')
     var g = document.getElementById('ani')
+    var h = document.getElementById('caravan')
     if(a.style.display='none'){
         a.style.display='block';
         b.style.display='none';
@@ -103,6 +111,7 @@ function btcine(){//CINEFILÓSOFO
         e.style.display='none';
         f.style.display='none';
         g.style.display='none';
+        h.style.display='none';
     }else if(a.style.display='block'){
         a.style.display='none';
     }
@@ -116,6 +125,7 @@ function btluta(){//2 CENTAVOS DE LUTA
     var e = document.getElementById('glass')
     var f = document.getElementById('brafe')
     var g = document.getElementById('ani')
+    var h = document.getElementById('caravan')
     if(a.style.display='none'){
         a.style.display='block';
         b.style.display='none';
@@ -124,6 +134,7 @@ function btluta(){//2 CENTAVOS DE LUTA
         e.style.display='none';
         f.style.display='none';
         g.style.display='none';
+        h.style.display='none';
     }else if(a.style.display='block'){
         a.style.display='none';
     }
@@ -137,6 +148,7 @@ function btbar(){//CASA PRAIA, BAR E RESTAURANTE
     var e = document.getElementById('glass')
     var f = document.getElementById('brafe')
     var g = document.getElementById('ani')
+    var h = document.getElementById('caravan')
     if(a.style.display='none'){
         a.style.display='block';
         b.style.display='none';
@@ -145,6 +157,30 @@ function btbar(){//CASA PRAIA, BAR E RESTAURANTE
         e.style.display='none';
         f.style.display='none';
         g.style.display='none';
+        h.style.display='none';
+    }else if(a.style.display='block'){
+        a.style.display='none';
+    }
+}
+
+function btcaravan(){//Caravan
+    var a = document.getElementById('caravan')
+    var b = document.getElementById('cine')
+    var c = document.getElementById('luta')
+    var d = document.getElementById('bar')
+    var e = document.getElementById('ale')
+    var f = document.getElementById('brafe')
+    var g = document.getElementById('ani')
+    var h = document.getElementById('glass')
+    if(a.style.display='none'){
+        a.style.display='block';
+        b.style.display='none';
+        c.style.display='none';
+        d.style.display='none';
+        e.style.display='none';
+        f.style.display='none';
+        g.style.display='none';
+        h.style.display='none';
     }else if(a.style.display='block'){
         a.style.display='none';
     }
@@ -158,6 +194,7 @@ function btglass(){//GOOGLE GLASS
     var e = document.getElementById('ale')
     var f = document.getElementById('brafe')
     var g = document.getElementById('ani')
+    var h = document.getElementById('caravan')
     if(a.style.display='none'){
         a.style.display='block';
         b.style.display='none';
@@ -166,6 +203,7 @@ function btglass(){//GOOGLE GLASS
         e.style.display='none';
         f.style.display='none';
         g.style.display='none';
+        h.style.display='none';
     }else if(a.style.display='block'){
         a.style.display='none';
     }
@@ -179,6 +217,7 @@ function btbrafe(){//BRAFÉ
     var e = document.getElementById('glass')
     var f = document.getElementById('ale')
     var g = document.getElementById('ani')
+    var h = document.getElementById('caravan')
     if(a.style.display='none'){
         a.style.display='block';
         b.style.display='none';
@@ -187,6 +226,7 @@ function btbrafe(){//BRAFÉ
         e.style.display='none';
         f.style.display='none';
         g.style.display='none';
+        h.style.display='none';
     }else if(a.style.display='block'){
         a.style.display='none';
     }
@@ -200,6 +240,7 @@ function btani(){//ANIMAIS FANTÁSTICO
     var e = document.getElementById('glass')
     var f = document.getElementById('brafe')
     var g = document.getElementById('ale')
+    var h = document.getElementById('caravan')
     if(a.style.display='none'){
         a.style.display='block';
         b.style.display='none';
@@ -208,6 +249,7 @@ function btani(){//ANIMAIS FANTÁSTICO
         e.style.display='none';
         f.style.display='none';
         g.style.display='none';
+        h.style.display='none';
     }else if(a.style.display='block'){
         a.style.display='none';
     }
